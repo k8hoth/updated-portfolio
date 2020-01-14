@@ -1,0 +1,106 @@
+.nav-link {
+    align-content: right;
+    margin: 10px;
+    position: relative;
+    left: 333px;
+}
+
+.name {
+    background: lightblue;
+    padding: 30px;
+    color: black;
+    font-size: 20pt;
+    margin-left: 120px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 830px;
+    height: auto;
+    background: lightblue;
+    border: 10px white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    margin-left: 120px;
+    font: white;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url("sky.jpg");
+}
+
+.picture1 {
+    float: left;
+    margin: 20px;
+}
+
+.row {
+    margin: 20px;
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    margin-bottom: 40px;
+}
+
+.col-lg {
+    margin-top: 30px;
+}
+
+.name2 {
+    background: lightblue;
+    color: white;
+    font-size: 18pt;
+    margin: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+
+
+@media screen and (max-width: 758px) {
+
+.nav-link {
+        align-content: left;
+        margin: 0px;
+        position: relative;
+        left: 333px;
+    }
+    
+.name {
+        background: lightblue;
+        padding: 30px;
+        color: black;
+        font-size: 20pt;
+        margin-left: 40px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+.container {
+        width: auto;
+        height: auto;
+        background: lightblue;
+        border: 10px white;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding-bottom: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font: white;
+        border-radius: 10px;
+    }
+
+
+    .row {
+       align-items: center;
+    }
+    
+    .col-lg {
+        margin-top: 20px;
+    }
+
